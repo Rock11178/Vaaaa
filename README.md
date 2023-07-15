@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/c0c347379996b9606b374.jpg" alt="PM-Shortner-Bot Logo">
+  <img src="https://graph.org/file/1e58f29607b1cc0b0e8dd.jpg" alt="PM-Shortner-Bot Logo">
 </p>
 <h1 align="center">
   PM-Shortner-Bot
