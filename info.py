@@ -11,6 +11,11 @@ def is_enabled(value, default):
     else:
         return default
 
+#stream and download
+DIRECT_GEN_DB = int(environ.get("DIRECT_GEN_DB", "-1001906907851"))
+DIRECT_GEN_URL = environ.get("DIRECT_GEN_URL", "https://developerr-bots.xyz/") # https://example.com/
+DIRECT_GEN = bool(DIRECT_GEN_DB and DIRECT_GEN_URL)
+
 # Bot information
 SESSION = environ.get('SESSION', 'DFMovieSearchetBot')
 API_ID = int(environ.get('API_ID', '20804756'))
