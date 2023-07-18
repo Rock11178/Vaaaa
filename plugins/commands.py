@@ -3,6 +3,7 @@ import logging
 import random
 import asyncio
 from Script import script
+from urllib.parse import quote_plus
 from pyrogram import Client, filters, enums
 from pyrogram.errors import ChatAdminRequired, FloodWait
 from pyrogram.types import *
