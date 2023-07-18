@@ -450,7 +450,7 @@ async def start(client, message):
         )
     )
     markup = await direct_gen_handler(file_reply)
-            await file_reply.edit_reply_markup(markup) if markup else No
+    await file_reply.edit_reply_markup(markup) if markup else No
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
